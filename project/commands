@@ -1,0 +1,13 @@
+
+npm init -y
+npm install express
+npm install -D typescript ts-node @types/node @types/express
+npx tsc --init
+
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "esModuleInterop": true
+  }
+}
